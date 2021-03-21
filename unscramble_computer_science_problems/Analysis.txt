@@ -1,0 +1,31 @@
+Task 0
+O(1)
+The output is constant and is not dependent on the size of the input.
+
+Task 1
+
+O(N)
+The output is dependent on the size of the input and iterates over the entire
+list of calls and texts once, hence it is O(N).
+
+Task 2
+
+O(N)
+To group the list of calls by the numbers into a dictionary data structure, the complexity is O(N)input.
+Once the list is present giving the information of 
+"phone_number" : amount of time spent in the call in seconds
+To retrieve the phone number that has the maximum talktime , the list is iterated over.
+So, total complexity is O(N).
+
+Task 3
+
+O(N) + O(NlogN) = O(NlogN)
+Based on the input , we iterate over the list and create a dictionary data structure
+When sorting the list of keys , the complexity is O(NlogN)
+
+Task 4
+
+O(NlogN)
+Based on the input , we iterate over the list and create a list and remove duplicates using the set data structure.
+When sorting the list, the complexity is O(NlogN)
+
